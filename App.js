@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import {NavigationContainer} from "@react-navigation/native";
+
 import AppNavigation from './src/navigation/AppNavigation';
 
 export default function App() {
@@ -12,3 +13,5 @@ export default function App() {
     </>
   );
 }
+
+
